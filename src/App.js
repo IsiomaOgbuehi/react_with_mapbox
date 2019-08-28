@@ -73,7 +73,6 @@ class App extends React.Component{
         this.setState({
             navData: filtered
         });
-        console.log(this.state.navData);
     }
 
     handleKeyboardEvent = e => {
